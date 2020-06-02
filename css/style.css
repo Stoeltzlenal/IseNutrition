@@ -2585,14 +2585,14 @@ h3 {
 
 /* line 1, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_team.scss */
 .team_bg_1 {
-  background-image: url(../img/banner/trainer_bg.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 /* line 6, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_team.scss */
+/*modification de padding top*/
 .team_area {
-  padding-top: 155px;
+  padding-top: 25px;
   padding-bottom: 122px;
 }
 
