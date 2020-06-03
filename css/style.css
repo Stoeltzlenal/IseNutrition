@@ -781,13 +781,13 @@ h3 {
 
 /* line 13, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_slick-nav.scss */
 .slicknav_menu .slicknav_nav {
-  background: #fff;
+  background: #000000d1;
   float: right;
   margin-top: 0;
   padding: 0;
-  width: 95%;
+  width: 85%;
   padding: 0;
-  border-radius: 0px;
+  border-radius: 5px;
   margin-top: 5px;
   position: absolute;
   left: 0;
