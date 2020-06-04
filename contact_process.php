@@ -1,37 +1,26 @@
 <?php
 
-    $to = "spn8@spondonit.com";
-    $from = $_REQUEST['email'];
-    $name = $_REQUEST['name'];
-    $subject = $_REQUEST['subject'];
-    $number = $_REQUEST['number'];
-    $cmessage = $_REQUEST['message'];
+    $email = $_REQUEST['email'];
+    $nom = $_REQUEST['nom'];
+    $prenom = $_REQUEST['prenom'];
+    $objet = $_REQUEST['subject'];
+    $situation = $_REQUEST['situation'];
+    $age = $_REQUEST['age'];
+    $msg = $_REQUEST['message'];
 
-    $headers = "From: $from";
-	$headers = "From: " . $from . "\r\n";
-	$headers .= "Reply-To: ". $from . "\r\n";
-	$headers .= "MIME-Version: 1.0\r\n";
-	$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
+    $to = 'jeremy.vaccaro@isen.yncrea.fr';
+    $subject = "$objet | $prenom $nom";
+    $message = "Vous avez reçu un message de $nom $prenom, agé de $age."
+            . "Son niveau est $situation."
+            . "Message : $msg";
+    $headers  = 'MIME-Version: 1.0' . "\r\n";
+    $headers .= 'From:'.$prenom.' '.$nom.' <'.$email.'>' . "\r\n" .
+				'Reply-To:'.$email. "\r\n" .
+				'Content-Type: text/html; charset="utf-8"; DelSp="Yes"; format=flowed '."\r\n" .
+				'Content-Disposition: inline'. "\r\n" .
+				'Content-Transfer-Encoding: 7bit'." \r\n" .
+				'X-Mailer:PHP/'.phpversion();
 
-    $subject = "You have a message from your Bitmap Photography.";
-
-    $logo = 'img/logo.png';
-    $link = '#';
-
-	$body = "<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><title>Express Mail</title></head><body>";
-	$body .= "<table style='width: 100%;'>";
-	$body .= "<thead style='text-align: center;'><tr><td style='border:none;' colspan='2'>";
-	$body .= "<a href='{$link}'><img src='{$logo}' alt=''></a><br><br>";
-	$body .= "</td></tr></thead><tbody><tr>";
-	$body .= "<td style='border:none;'><strong>Name:</strong> {$name}</td>";
-	$body .= "<td style='border:none;'><strong>Email:</strong> {$from}</td>";
-	$body .= "</tr>";
-	$body .= "<tr><td style='border:none;'><strong>Subject:</strong> {$csubject}</td></tr>";
-	$body .= "<tr><td></td></tr>";
-	$body .= "<tr><td colspan='2' style='border:none;'>{$cmessage}</td></tr>";
-	$body .= "</tbody></table>";
-	$body .= "</body></html>";
-
-    $send = mail($to, $subject, $body, $headers);
+            mail($to, $subject, $message, $headers);
 
 ?>

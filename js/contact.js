@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
     
     (function($) {
@@ -12,13 +13,13 @@ $(document).ready(function(){
     $(function() {
         $('#contactForm').validate({
             rules: {
-                name: {
+                firstname: {
                     required: true,
                     minlength: 2
                 },
-                subject: {
+                name: {
                     required: true,
-                    minlength: 4
+                    minlength: 2
                 },
                 number: {
                     required: true,
@@ -33,7 +34,7 @@ $(document).ready(function(){
                     minlength: 20
                 }
             },
-            messages: {
+            /*messages: {
                 name: {
                     required: "come on, you have a name, don't you?",
                     minlength: "your name must consist of at least 2 characters"
@@ -53,7 +54,7 @@ $(document).ready(function(){
                     required: "um...yea, you have to write something to send this form.",
                     minlength: "thats all? really?"
                 }
-            },
+            },*/
             submitHandler: function(form) {
                 $(form).ajaxSubmit({
                     type:"POST",
@@ -83,3 +84,26 @@ $(document).ready(function(){
         
  })(jQuery)
 })
+
+
+function validEnvoi() {
+    if (window.document.querySelector("#nom").value === "" &&
+            window.document.querySelector("#prenom").value === "") {
+        alert("Le nom ou le prénom doivent être remplis"); // On affiche un message
+    } 
+    else if (window.document.querySelector("#email").value === "") {
+        alert("L'email doit être rempli"); // On affiche un message
+    } 
+    else {
+        let question = "Souhaitez-vous réellement utiliser l'adresse suivante : "
+                + window.document.querySelector("#email").value;
+        if (confirm(question)) {
+            window.document.querySelector("#form-contact").submit(); // OK envoyer
+        }
+    }
+}
+
+window.addEventListener("load", function () {
+    window.document.querySelector("#envoyer").addEventListener("click", validEnvoi);
+});
+ 
