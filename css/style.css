@@ -2786,7 +2786,7 @@ h3 {
 /* line 39, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_bradcam.scss */
 .bradcam_area .single_bradcam .bradcam_text h3 {
   font-family: "Paytone One", sans-serif;
-  font-size: 153px;
+  font-size: 120px;
   text-transform: uppercase;
   font-weight: 400;
   color: #fff;
@@ -2811,7 +2811,7 @@ h3 {
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 39, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_bradcam.scss */
   .bradcam_area .single_bradcam .bradcam_text h3 {
-    font-size: 54px;
+    font-size: 53px;
   }
 }
 
