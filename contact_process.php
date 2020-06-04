@@ -10,8 +10,8 @@
 
     $to = 'jeremy.vaccaro@isen.yncrea.fr';
     $subject = "$objet | $prenom $nom";
-    $message = "Vous avez reçu un message de $nom $prenom, agé de $age."
-            . "Son niveau est $situation."
+    $message = "Bonjour, vous avez reçu un message de $nom $prenom, agé de $age ans.<br>"
+            . "Son niveau en sport est : $situation.<br>"
             . "Message : $msg";
     $headers  = 'MIME-Version: 1.0' . "\r\n";
     $headers .= 'From:'.$prenom.' '.$nom.' <'.$email.'>' . "\r\n" .
@@ -22,5 +22,5 @@
 				'X-Mailer:PHP/'.phpversion();
 
             mail($to, $subject, $message, $headers);
-
+            header('Location: contact.html');
 ?>
