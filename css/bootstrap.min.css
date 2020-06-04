@@ -2232,7 +2232,7 @@ select.form-control-lg:not([size]):not([multiple]) {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     margin-right: -5px;
-    margin-left: -5px
+    margin-left: 200px
 }
 
 .form-row>.col,
