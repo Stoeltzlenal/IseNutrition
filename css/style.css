@@ -3300,6 +3300,10 @@ h3 {
   color: #8a8a8a; /*détail de média body en gris*/
 }
 
+#carto img{
+        margin-bottom: 10px;
+    }
+
 @media screen and (max-width:1200px) {
     #carto h1 {
         text-align: center;
@@ -3307,11 +3311,6 @@ h3 {
     #carto img:nth-child(1){
         display: none;
     }
-    /*
-    #carto img:nth-child(3), #carto img:nth-child(4) {
-        width: 100%;
-    }
-    */
 }
 
 /*=================== contact banner end ====================*/
@@ -3342,6 +3341,7 @@ h3 {
   padding-left: 18px;
   font-size: 13px;
   background: black;
+  color: white;
 }
 
 /* line 69, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_contact.scss */
@@ -3409,7 +3409,7 @@ h3 {
 
 .contact-section {
   background-color: #303030; /*couleur de fond de page */
-  padding: 130px 0 100px;
+  padding: 13px 0 100px;
 }
 
 @media (max-width: 991px) {
