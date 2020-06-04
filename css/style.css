@@ -79,7 +79,7 @@ button {
 /* line 40, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/theme-default.scss */
 h1, h2, h3, h4, h5 {
   font-family: "Paytone One", sans-serif;
-  color: #001D38;
+  color: #ffffff;
 }
 
 /* line 44, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/theme-default.scss */
@@ -6478,7 +6478,7 @@ h6 {
 .featured__item__pic__hover {
 	position: absolute;
 	left: 0;
-	bottom: -50px;
+	bottom: -100px;
 	width: 100%;
 	text-align: center;
 	-webkit-transition: all, 0.5s;
@@ -6499,7 +6499,7 @@ h6 {
 }
 
 .featured__item__pic__hover li:hover a {
-	background: #7fad39;
+	background: red;
 	border-color: #7fad39;
 }
 
@@ -6546,12 +6546,14 @@ h6 {
 }
 
 .featured__item__text h6 a {
-	color: #252525;
+	color: #ffffff;
+        font-family: "Paytone One", sans-serif;
 }
 
 .featured__item__text h5 {
-	color: #252525;
+	color: #ff0000;
 	font-weight: 700;
+        font-family: "Teko", sans-serif;
 }
 
 /*
@@ -6622,12 +6624,12 @@ h6 {
 
 .filterDiv {
   float: left;
-  background-color: #2196F3;
-  color: #ffffff;
-  width: 100px;
+  width: 240px;
+  height: 389px;
   line-height: 100px;
   text-align: center;
-  margin: 2px;
+  margin-right: 10px;
+  margin-left: 10px;
   display: none; /* Hidden by default */
 }
 
@@ -6648,10 +6650,19 @@ h6 {
 /* Add a light grey background on mouse-over */
 .btn:hover {
   background-color: #ddd;
+  font-family: "Paytone One", sans-serif;
 }
 
 /* Add a dark background to the active button */
 .btn.active {
-  background-color: #666;
+  background-color: #e90000;
   color: white;
+}
+
+.shop_area {
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding-top: 20px;
+  padding-bottom: 3000px;
+  background-size: cover;
 }
