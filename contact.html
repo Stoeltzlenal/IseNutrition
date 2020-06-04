@@ -101,12 +101,17 @@
                     <div class="col-12">
                         <h2 class="contact-title">Notre localisation :</h2>
                     </div>
-                    <div class="col-lg-8">
+                    <div id="carto" class="media col-lg-8">
                     <img src="https://open.mapquestapi.com/staticmap/v5/map?key=aoGRMk5rG5PuKSgGVCuTfV1lrNTl7yVv
                          &locations=140 Avenue Franklin Roosevelt, La Rode, Toulon, Var, Provence-Alpes-
                          Côte d'Azur, France métropolitaine, 83041, France
-                         |
-                         &zoom=14&size=730,400"
+                         &zoom=15&size=1100,600"
+                         alt="Carte OpenStreetMap statique avec la ville de Toulon.">
+                    </div>
+                    <div class="media col-lg-8">
+                    <img src="https://open.mapquestapi.com/staticmap/v5/map?key=aoGRMk5rG5PuKSgGVCuTfV1lrNTl7yVv
+                         &locations=43.12080866, 5.9388946
+                         &zoom=19&size=650,400"
                          alt="Carte OpenStreetMap statique avec la ville de Toulon.">
                     </div>
                     <div class="col-lg-4">
@@ -137,32 +142,48 @@
                     <div class="col-12">
                         <h2 class="contact-title">Nous contacter :</h2>
                     </div>
-                    <div class="col-lg-8">
+                    <div class="col-lg-12">
                         <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
                             <div class="row">
-                                <div class="col-12">
+                                <div class="col-sm-5">
                                     <div class="form-group">
-                                        <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'" placeholder=" Name"></textarea>
+                                        <input class="form-control valid" name="prénom" id="firstname" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Entre ton prénom'" placeholder="Ton prénom">
+                                    </div>
+                                </div>
+                                <div class="col-sm-5">
+                                    <div class="form-group">
+                                        <input class="form-control valid" name="name" id="name" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Entre ton nom'" placeholder="Ton nom">
+                                    </div>
+                                </div>
+                                <div class="col-sm-2">
+                                    <div class="form-group">
+                                        <input class="form-control valid" name="date" id="name" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Entre ton âge'" placeholder="Ton âge">
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-group">
-                                        <input class="form-control valid" name="name" id="name" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" placeholder="Enter your name">
+                                        <input class="form-control valid" name="email" id="email" type="email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Entre ton e-mail'" placeholder="Ton e-mail">
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-group">
-                                        <input class="form-control valid" name="email" id="email" type="email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" placeholder="Email">
+                                        <input class="form-control valid" name="situation" id="situation" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Entre ta situation'" placeholder="Ta situation">
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="form-group">
-                                        <input class="form-control" name="subject" id="subject" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Subject'" placeholder="Enter Subject">
+                                        <input class="form-control" name="subject" id="subject" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Entre le sujet'" placeholder="Sujet de ta demande">
                                     </div>
                                 </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Entre ton message'" placeholder="Message"></textarea>
+                                    </div>
+                                </div>
+                                  
                             </div>
                             <div class="form-group mt-3">
-                                <button type="submit" class="button button-contactForm boxed-btn">Send</button>
+                                <button type="submit" class="button button-contactForm boxed-btn">Envoyer</button>
                             </div>
                         </form>
                     </div>
@@ -186,11 +207,6 @@
                                 <p>ISEN Yncréa Méditerranée, <br> Place Georges Pompidou <br> 83000 Toulon - France <br>
                                     <a href="#">+33 6.11.22.33</a> <br>
                                     <a href="#">contact@isenutrition.fr</a>
-                                </p>
-                                <p>
-
-
-
                                 </p>
                                 <div class="socail_links">
                                     <ul>
@@ -227,7 +243,7 @@
                         <div class="col-xl-4 col-md-6 col-lg-3 offset-xl-1">
                             <div class="footer_widget">
                                 <h3 class="footer_title">
-                                    Liens utiles
+                                    Liens utiles :
                                 </h3>
                                 <ul class="links">
                                     <li><a href="about.html">Entrainement</a></li>
