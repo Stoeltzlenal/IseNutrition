@@ -3265,6 +3265,10 @@ h3 {
   border-color: transparent;
 }
 
+.fa{
+    color: red;
+}
+
 /*=================== contact banner start ====================*/
 .dropdown .dropdown-menu {
   -webkit-transition: all 0.3s;
