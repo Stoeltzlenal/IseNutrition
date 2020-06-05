@@ -130,7 +130,7 @@ p {
 
 /* line 77, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/theme-default.scss */
 label {
-    color: #7e7e7e;
+    color: white;
     cursor: pointer;
     font-size: 14px;
     font-weight: 400;
@@ -6685,7 +6685,6 @@ h6 {
 }
 
 .calculate_part2 .section_tittle2 {
-    text-align: left;
     margin-bottom: 20px;
 }
 
@@ -6703,15 +6702,15 @@ body2 {
 
 .calculate_part2 .regervation_part_iner2 .form-control2 {
     background-color: transparent;
-    color: #000 !important;
+    color: white !important;
     border: 0px solid transparent;
-    border-bottom: 1px solid #000;
+    border-bottom: 2px solid white;
     border-radius: 0px;
     padding: .375rem 0rem;
     font-size: 14px;
     font-family: "Open Sans", sans-serif;
-    margin-bottom: 45px;
-    padding-bottom: 15px;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
     height: 40px;
 }
 
@@ -6817,9 +6816,9 @@ body2 {
         padding: 12.5px 38px;
         border-radius: 50px;
         font-size: 13px;
-        margin-left: 50px;
+        margin-left: 0px;
         font-weight: 600;
-        color: #000;
+        color: white;
         -webkit-transition: 0.5s;
         transition: 0.5s;
         text-transform: uppercase;
@@ -6827,17 +6826,16 @@ body2 {
     }
 
     .btn_22, .extends_part2 .extends_video2 .video-play-button2, .extends_part2 .extends_video2 .video-play-button2:before {
-        background-image: linear-gradient(to left, #fa0347 0%, #fc561c 50%, #fa0347 100%);
+        background-image: linear-gradient(to left, #040404 20%, #000000 10%, #ff1414 100%);
     }
 
     .calculate_part2 [type="radio"]:checked + label:before,
         .calculate_part2 [type="radio"]:not(:checked) + label {
         position: relative;
-        padding-left: 33px;
         cursor: pointer;
         line-height: 20px;
         display: inline-block;
-        color: #000;
+        color: #c0c0c0;
         margin-right: 29px;
     }
 
