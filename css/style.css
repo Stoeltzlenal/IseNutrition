@@ -931,14 +931,21 @@ h3 {
     }
 }
 
-@media (min-width: 992px) and (max-width: 1200px) {
+@media (min-width: 992px) and (max-width: 1199px) {
     /* line 16, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
     .header-area .main-header-area {
         padding: 20px 20px;
     }
 }
 
-@media (min-width: 1200px) and (max-width: 1500px) {
+@media (min-width: 1200px) and (max-width: 1499px) {
+    /* line 16, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
+    .header-area .main-header-area {
+        padding: 20px 20px;
+    }
+}
+
+@media (min-width: 1500px) and (max-width: 2000px) {
     /* line 16, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
     .header-area .main-header-area {
         padding: 20px 20px;
@@ -1003,14 +1010,21 @@ h3 {
     -ms-flex-pack: flex-end;
 }
 
-@media (min-width: 992px) and (max-width: 1200px) {
+@media (min-width: 992px) and (max-width: 1199px) {
     /* line 63, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
     .header-area .main-header-area .Appointment .search_button {
         margin-right: 15px;
     }
 }
 
-@media (min-width: 1200px) and (max-width: 1500px) {
+@media (min-width: 1200px) and (max-width: 1499px) {
+    /* line 63, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
+    .header-area .main-header-area .Appointment .search_button {
+        margin-right: 15px;
+    }
+}
+
+@media (min-width: 1500px) and (max-width: 2000px) {
     /* line 63, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
     .header-area .main-header-area .Appointment .search_button {
         margin-right: 15px;
@@ -1044,14 +1058,21 @@ h3 {
     margin-left: 30px;
 }
 
-@media (min-width: 992px) and (max-width: 1200px) {
+@media (min-width: 992px) and (max-width: 1199px) {
     /* line 93, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
     .header-area .main-header-area .Appointment .book_btn {
         margin-left: 0;
     }
 }
 
-@media (min-width: 1200px) and (max-width: 1500px) {
+@media (min-width: 1200px) and (max-width: 1499px) {
+    /* line 93, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
+    .header-area .main-header-area .Appointment .book_btn {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 1500px) and (max-width: 2000px) {
     /* line 93, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
     .header-area .main-header-area .Appointment .book_btn {
         margin-left: 0;
@@ -1098,14 +1119,21 @@ h3 {
     margin: 0 10px;
 }
 
-@media (min-width: 992px) and (max-width: 1200px) {
+@media (min-width: 992px) and (max-width: 1199px) {
     /* line 125, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
     .header-area .main-header-area .main-menu ul li {
         margin: 0 2px;
     }
 }
 
-@media (min-width: 1200px) and (max-width: 1500px) {
+@media (min-width: 1200px) and (max-width: 1499px) {
+    /* line 125, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
+    .header-area .main-header-area .main-menu ul li {
+        margin: 0 2px;
+    }
+}
+
+@media (min-width: 1500px) and (max-width: 2000px) {
     /* line 125, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
     .header-area .main-header-area .main-menu ul li {
         margin: 0 2px;
@@ -1125,14 +1153,21 @@ h3 {
     text-transform: uppercase;
 }
 
-@media (min-width: 992px) and (max-width: 1200px) {
+@media (min-width: 992px) and (max-width: 1199px) {
     /* line 138, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
     .header-area .main-header-area .main-menu ul li a {
         font-size: 15px;
     }
 }
 
-@media (min-width: 1200px) and (max-width: 1500px) {
+@media (min-width: 1200px) and (max-width: 1499px) {
+    /* line 138, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
+    .header-area .main-header-area .main-menu ul li a {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 1500px) and (max-width: 2000px) {
     /* line 138, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
     .header-area .main-header-area .main-menu ul li a {
         font-size: 15px;
@@ -1291,14 +1326,21 @@ h3 {
     }
 }
 
-@media (min-width: 992px) and (max-width: 1200px) {
+@media (min-width: 992px) and (max-width: 1199px) {
     /* line 237, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
     .header-area .main-header-area.sticky {
         padding: 10px 20px;
     }
 }
 
-@media (min-width: 1200px) and (max-width: 1500px) {
+@media (min-width: 1200px) and (max-width: 1499px) {
+    /* line 237, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
+    .header-area .main-header-area.sticky {
+        padding: 10px 20px;
+    }
+}
+
+@media (min-width: 1500px) and (max-width: 2000px) {
     /* line 237, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
     .header-area .main-header-area.sticky {
         padding: 10px 20px;
@@ -1428,7 +1470,15 @@ h3 {
     }
 }
 
-@media (min-width: 1200px) and (max-width: 1500px) {
+@media (min-width: 1200px) and (max-width: 2000px) {
+    /* line 352, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
+    .header-area .search_btn {
+        position: relative;
+        right: 10px;
+    }
+}
+
+@media (min-width: 1500px) and (max-width: 2000px) {
     /* line 352, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
     .header-area .search_btn {
         position: relative;
@@ -6627,7 +6677,7 @@ h6 {
 @media only screen and (min-width: 1200px) and (max-width: 3640px) {
     /* line 301, E:/171 Fitzone Fitness/171_ Fitzone_Fitness_html/sass/_common.scss */
     .container2 {
-        max-width: 1170px;
+        max-width: 1800px;
     }
 }
 
@@ -6710,7 +6760,7 @@ body2 {
     background-position: center center;
     background-repeat: no-repeat;
     padding-top: 20px;
-    padding-bottom: 3000px;
+    padding-bottom: 20px;
     background-size: cover;
 }
 
