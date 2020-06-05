@@ -130,7 +130,7 @@ p {
 
 /* line 77, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/theme-default.scss */
 label {
-    color: #7e7e7e;
+    color: white;
     cursor: pointer;
     font-size: 14px;
     font-weight: 400;
@@ -1066,20 +1066,17 @@ h3 {
 }
 
 @media (min-width: 1200px) and (max-width: 1499px) {
-    /* line 93, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
     .header-area .main-header-area .Appointment .book_btn {
         margin-left: 0;
     }
 }
 
 @media (min-width: 1500px) and (max-width: 2000px) {
-    /* line 93, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
     .header-area .main-header-area .Appointment .book_btn {
         margin-left: 0;
     }
 }
 
-/* line 101, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
 .header-area .main-header-area .Appointment .book_btn a {
     background: #e10000;
     font-family: "Teko", sans-serif;
@@ -1095,24 +1092,20 @@ h3 {
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-    /* line 101, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
     .header-area .main-header-area .Appointment .book_btn a {
         padding: 12px 20px;
     }
 }
 
-/* line 114, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
 .header-area .main-header-area .Appointment .book_btn a:hover {
     background: #FF1414;
 }
 
-/* line 121, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu {
     text-align: center;
     padding: 12px 0;
 }
 
-/* line 125, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li {
     display: inline-block;
     position: relative;
@@ -1120,27 +1113,23 @@ h3 {
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-    /* line 125, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
     .header-area .main-header-area .main-menu ul li {
         margin: 0 2px;
     }
 }
 
 @media (min-width: 1200px) and (max-width: 1499px) {
-    /* line 125, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
     .header-area .main-header-area .main-menu ul li {
         margin: 0 2px;
     }
 }
 
 @media (min-width: 1500px) and (max-width: 2000px) {
-    /* line 125, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
     .header-area .main-header-area .main-menu ul li {
         margin: 0 2px;
     }
 }
 
-/* line 138, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a {
     color: #fff;
     font-size: 18px;
@@ -1154,33 +1143,28 @@ h3 {
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-    /* line 138, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
     .header-area .main-header-area .main-menu ul li a {
         font-size: 15px;
     }
 }
 
 @media (min-width: 1200px) and (max-width: 1499px) {
-    /* line 138, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
     .header-area .main-header-area .main-menu ul li a {
-        font-size: 15px;
+        font-size: 20px;
     }
 }
 
 @media (min-width: 1500px) and (max-width: 2000px) {
-    /* line 138, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
     .header-area .main-header-area .main-menu ul li a {
-        font-size: 15px;
+        font-size: 30px;
     }
 }
 
-/* line 157, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a i {
     font-size: 9px;
 }
 
 @media (max-width: 767px) {
-    /* line 157, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
     .header-area .main-header-area .main-menu ul li a i {
         display: none !important;
     }
@@ -6685,7 +6669,6 @@ h6 {
 }
 
 .calculate_part2 .section_tittle2 {
-    text-align: left;
     margin-bottom: 20px;
 }
 
@@ -6703,15 +6686,15 @@ body2 {
 
 .calculate_part2 .regervation_part_iner2 .form-control2 {
     background-color: transparent;
-    color: #000 !important;
+    color: white !important;
     border: 0px solid transparent;
-    border-bottom: 1px solid #000;
+    border-bottom: 2px solid white;
     border-radius: 0px;
     padding: .375rem 0rem;
     font-size: 14px;
     font-family: "Open Sans", sans-serif;
-    margin-bottom: 45px;
-    padding-bottom: 15px;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
     height: 40px;
 }
 
@@ -6817,27 +6800,30 @@ body2 {
         padding: 12.5px 38px;
         border-radius: 50px;
         font-size: 13px;
-        margin-left: 50px;
+        margin-left: 0px;
         font-weight: 600;
-        color: #000;
+        color: #c0c0c0;
         -webkit-transition: 0.5s;
         transition: 0.5s;
         text-transform: uppercase;
         background-size: 200% auto;
     }
+    
+    .btn_22:hover {
+        color: white;
+    }
 
     .btn_22, .extends_part2 .extends_video2 .video-play-button2, .extends_part2 .extends_video2 .video-play-button2:before {
-        background-image: linear-gradient(to left, #fa0347 0%, #fc561c 50%, #fa0347 100%);
+        background-image: linear-gradient(to left, #040404 20%, #000000 10%, #ff1414 100%);
     }
 
     .calculate_part2 [type="radio"]:checked + label:before,
         .calculate_part2 [type="radio"]:not(:checked) + label {
         position: relative;
-        padding-left: 33px;
         cursor: pointer;
         line-height: 20px;
         display: inline-block;
-        color: #000;
+        color: #c0c0c0;
         margin-right: 29px;
     }
 
