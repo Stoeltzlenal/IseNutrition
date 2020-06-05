@@ -6802,11 +6802,15 @@ body2 {
         font-size: 13px;
         margin-left: 0px;
         font-weight: 600;
-        color: white;
+        color: #c0c0c0;
         -webkit-transition: 0.5s;
         transition: 0.5s;
         text-transform: uppercase;
         background-size: 200% auto;
+    }
+    
+    .btn_22:hover {
+        color: white;
     }
 
     .btn_22, .extends_part2 .extends_video2 .video-play-button2, .extends_part2 .extends_video2 .video-play-button2:before {
