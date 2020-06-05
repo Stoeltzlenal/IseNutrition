@@ -123,7 +123,7 @@ p {
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
-    color: #7A838B;
+    color: #ffffff;
     margin-bottom: 0px;
     font-family: "Montserrat", sans-serif;
 }
@@ -3495,8 +3495,8 @@ h3 {
 
 /* line 75, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_elements.scss */
 .sample-text-area {
-    background: #fff;
-    padding: 100px 0 70px 0;
+    background: #262323;
+    padding: 50px 0 70px 0;
 }
 
 /* line 80, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_elements.scss */
@@ -4783,7 +4783,6 @@ h6 {
 /* line 1089, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_elements.scss */
 .section-top-border {
     padding: 50px 0;
-    border-top: 1px dotted #eee;
 }
 
 /* line 1093, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_elements.scss */
@@ -6840,4 +6839,12 @@ body2 {
 
     .titre-calculateur{
         margin-left: 50px;
+    }
+    
+    .def-top{
+        padding-bottom: 25px
+    }
+    
+    .backgroundcolor-def{
+        background-color: #a30000;
     }
