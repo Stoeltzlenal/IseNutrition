@@ -2683,7 +2683,7 @@ h3 {
 
 /* line 61, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_team.scss */
 .team_area .single_team .team_thumb .team_hover .hover_inner ul li a:hover {
-    background: #FF1414;
+    background: white;
     border: 1px solid #FF1414;
     color: #fff;
 }
