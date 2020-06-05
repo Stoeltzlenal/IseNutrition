@@ -1066,20 +1066,17 @@ h3 {
 }
 
 @media (min-width: 1200px) and (max-width: 1499px) {
-    /* line 93, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
     .header-area .main-header-area .Appointment .book_btn {
         margin-left: 0;
     }
 }
 
 @media (min-width: 1500px) and (max-width: 2000px) {
-    /* line 93, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
     .header-area .main-header-area .Appointment .book_btn {
         margin-left: 0;
     }
 }
 
-/* line 101, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
 .header-area .main-header-area .Appointment .book_btn a {
     background: #e10000;
     font-family: "Teko", sans-serif;
@@ -1095,24 +1092,20 @@ h3 {
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-    /* line 101, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
     .header-area .main-header-area .Appointment .book_btn a {
         padding: 12px 20px;
     }
 }
 
-/* line 114, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
 .header-area .main-header-area .Appointment .book_btn a:hover {
     background: #FF1414;
 }
 
-/* line 121, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu {
     text-align: center;
     padding: 12px 0;
 }
 
-/* line 125, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li {
     display: inline-block;
     position: relative;
@@ -1120,27 +1113,23 @@ h3 {
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-    /* line 125, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
     .header-area .main-header-area .main-menu ul li {
         margin: 0 2px;
     }
 }
 
 @media (min-width: 1200px) and (max-width: 1499px) {
-    /* line 125, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
     .header-area .main-header-area .main-menu ul li {
         margin: 0 2px;
     }
 }
 
 @media (min-width: 1500px) and (max-width: 2000px) {
-    /* line 125, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
     .header-area .main-header-area .main-menu ul li {
         margin: 0 2px;
     }
 }
 
-/* line 138, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a {
     color: #fff;
     font-size: 18px;
@@ -1154,33 +1143,28 @@ h3 {
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-    /* line 138, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
     .header-area .main-header-area .main-menu ul li a {
         font-size: 15px;
     }
 }
 
 @media (min-width: 1200px) and (max-width: 1499px) {
-    /* line 138, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
     .header-area .main-header-area .main-menu ul li a {
-        font-size: 15px;
+        font-size: 20px;
     }
 }
 
 @media (min-width: 1500px) and (max-width: 2000px) {
-    /* line 138, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
     .header-area .main-header-area .main-menu ul li a {
-        font-size: 15px;
+        font-size: 30px;
     }
 }
 
-/* line 157, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a i {
     font-size: 9px;
 }
 
 @media (max-width: 767px) {
-    /* line 157, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
     .header-area .main-header-area .main-menu ul li a i {
         display: none !important;
     }
@@ -6849,4 +6833,29 @@ body2 {
     
     .backgroundcolor-def{
         background-color: #a30000;
+    }
+    
+    /*changement de couleur des sections pages nutrition */
+    .sample-text-area1{
+        background: pink; 
+        padding: 50px 0 70px 0;
+    }
+    
+    .sample-text-area2{
+        background: buttonhighlight; 
+        padding: 50px 0 70px 0;
+    }
+    
+    .sample-text-area3{
+        background: yellow; 
+        padding: 50px 0 70px 0;
+    }
+    
+    .sample-text-area4{
+        background: green; 
+        padding: 50px 0 70px 0;
+    }
+    .sample-text-area5{
+        background: brown; 
+        padding: 50px 0 70px 0;
     }
