@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
     
     (function($) {
@@ -11,49 +12,6 @@ $(document).ready(function(){
     // validate contactForm form
     $(function() {
         $('#contactForm').validate({
-            rules: {
-                name: {
-                    required: true,
-                    minlength: 2
-                },
-                subject: {
-                    required: true,
-                    minlength: 4
-                },
-                number: {
-                    required: true,
-                    minlength: 5
-                },
-                email: {
-                    required: true,
-                    email: true
-                },
-                message: {
-                    required: true,
-                    minlength: 20
-                }
-            },
-            messages: {
-                name: {
-                    required: "come on, you have a name, don't you?",
-                    minlength: "your name must consist of at least 2 characters"
-                },
-                subject: {
-                    required: "come on, you have a subject, don't you?",
-                    minlength: "your subject must consist of at least 4 characters"
-                },
-                number: {
-                    required: "come on, you have a number, don't you?",
-                    minlength: "your Number must consist of at least 5 characters"
-                },
-                email: {
-                    required: "no email, no message"
-                },
-                message: {
-                    required: "um...yea, you have to write something to send this form.",
-                    minlength: "thats all? really?"
-                }
-            },
             submitHandler: function(form) {
                 $(form).ajaxSubmit({
                     type:"POST",
@@ -83,3 +41,28 @@ $(document).ready(function(){
         
  })(jQuery)
 })
+
+function validEnvoi() {
+    if (window.document.querySelector("#nom").value === "" &&
+            window.document.querySelector("#prenom").value === "") {
+        alert("Le nom ou le prénom doivent être remplis"); // On affiche un message
+    } 
+    else if (window.document.querySelector("#message").value === "") {
+        alert("La partie Message n'est pas rempli"); // On affiche un message
+    }
+    else if (window.document.querySelector("#email").value === "") {
+        alert("L'email doit être complété"); // On affiche un message
+    }
+    else {
+        let question = "Souhaitez-vous réellement utiliser l'adresse suivante : "
+                + window.document.querySelector("#email").value;
+        if (confirm(question)) {
+            window.document.querySelector("#form-contact").submit(); // OK envoyer
+        }
+    }
+}
+
+window.addEventListener("load", function () {
+    window.document.querySelector("#envoyer").addEventListener("click", validEnvoi);
+});
+ 
