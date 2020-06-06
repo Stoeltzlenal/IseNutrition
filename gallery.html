@@ -254,15 +254,43 @@
         <section class="calculate_part2 section_padding2">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4">
+                    <div class="col-lg-5">
                         <div class="titre-calculateur">
                             <div class="section_tittle2">
-                                <h2>Calcule ta diet !</h2>
+                                <h2>Calcul ta diet !</h2>
                             </div>
                         </div>
-                        <div class="form-group2 col-md-62">
+                        <div > 
+                            <p>Les résultats de ce fameux calcul va te permettre de savoir quels sont tes besoins journalier : <br> - En proteine <br> - En lipide <br> - En glucide <br> - En maintient calorique
+                        </div>
+                    </div>
+                    <div class="col-lg-3 offset-1">
+                        <div class="regervation_part_iner2">
+                            <div class="form-row2">
+                                <div class="form-group col-md-6">
+                                    <input type="number" class="form-control2" id="taille"
+                                           placeholder='Taille - cm' 
+                                           onfocus="this.placeholder = 'Taille - cm'" 
+                                           onblur="this.placeholder = 'Taille - cm'">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <input type="number" class="form-control2" id="poids"
+                                           placeholder='Poids - kg' 
+                                           onfocus="this.placeholder = 'Poids - kg'" 
+                                           onblur="this.placeholder = 'Poids - kg'">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <input type="number" class="form-control2" id="âge" placeholder='Âge'
+                                           onfocus="this.placeholder = 'Âge'" 
+                                           onblur="this.placeholder = 'Âge'">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="form-group col-md-62">
                             <div class="single_check_box2">
-                                <div class="input-group-prepend2">
+                                <div class="form-control2">
                                     <p>
                                         <input type="radio" id="test1" name="radio-group">
                                         <label for="test1">Homme</label>
@@ -278,41 +306,10 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="regervation_part_iner2">
-                            <form>
-                                <div class="form-row2">
-                                    <div class="form-group2 col-md-62">
-                                        <input type="email" class="form-control2" id="inputEmail4"
-                                               placeholder='Taille - cm' 
-                                               onfocus="this.placeholder = 'Poids - kg'" onblur="this.placeholder = 'Taille - cm'">
-                                    </div>
-                                    <div class="form-group2 col-md-62">
-                                        <input type="email" class="form-control2" id="emailtype"
-                                               placeholder='Poids - kg' 
-                                               onfocus="this.placeholder = 'Poids - kg'" onblur="this.placeholder = 'Poids - kg'">
-                                    </div>
-                                    <div class="form-group2 col-md-62">
-                                        <input type="text" class="form-control2" id="pnone" placeholder='Âge'
-                                               onfocus="this.placeholder = 'Âge'" onblur="this.placeholder = 'Âge'">
-                                    </div>
-
-                                </div>
-
-
-                                <div class="regerv_btn2">
-                                    <a href="#" class="btn_22">Commence ta diet</a>
-                                </div>
-                            </form>
+                        <br>
+                        <div class="regerv_btn2">
+                            <a href="#" class="btn_22">Commencer !</a>
                         </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="text-p"> 
-                            <p>Avec les résultats du calcul tu sauras quelles seront tes besoins<br> journalier en proteine, lipide et glucide ! ainsi que ton maintiens calorique.
-                            </p> 
-                        </div> 
-
                     </div>
                 </div>
             </div>
