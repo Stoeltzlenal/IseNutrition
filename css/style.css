@@ -4770,7 +4770,7 @@ h6 {
 
 /* line 1089, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_elements.scss */
 .section-top-border {
-    padding: 50px 0;
+    padding: 10px 0;
 }
 
 /* line 1093, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_elements.scss */
@@ -6846,17 +6846,17 @@ body2 {
     }
     
     .sample-text-area2{
-        background: buttonhighlight; 
+        background: #444444c7; 
         padding: 50px 0 70px 0;
     }
     
     .sample-text-area3{
-        background: yellow; 
+        background: #350707; 
         padding: 50px 0 70px 0;
     }
     
     .sample-text-area4{
-        background: green; 
+        background: #865c00; 
         padding: 50px 0 70px 0;
     }
     .sample-text-area5{
