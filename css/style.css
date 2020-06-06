@@ -3514,7 +3514,7 @@ h2 {
 
 /* line 101, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_elements.scss */
 h3 {
-    font-size: 24px;
+    font-size: 40px;
 }
 
 /* line 105, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_elements.scss */
@@ -6841,7 +6841,7 @@ body2 {
     
     /*changement de couleur des sections pages nutrition */
     .sample-text-area1{
-        background: pink; 
+        background: #ffffff52; 
         padding: 50px 0 70px 0;
     }
     
