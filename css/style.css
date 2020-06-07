@@ -3514,7 +3514,7 @@ h2 {
 
 /* line 101, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_elements.scss */
 h3 {
-    font-size: 24px;
+    font-size: 40px;
 }
 
 /* line 105, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_elements.scss */
@@ -4770,7 +4770,7 @@ h6 {
 
 /* line 1089, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_elements.scss */
 .section-top-border {
-    padding: 50px 0;
+    padding: 10px 0;
 }
 
 /* line 1093, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_elements.scss */
@@ -6841,22 +6841,22 @@ body2 {
     
     /*changement de couleur des sections pages nutrition */
     .sample-text-area1{
-        background: pink; 
+        background: #ffffff52; 
         padding: 50px 0 70px 0;
     }
     
     .sample-text-area2{
-        background: buttonhighlight; 
+        background: #444444c7; 
         padding: 50px 0 70px 0;
     }
     
     .sample-text-area3{
-        background: yellow; 
+        background: #350707; 
         padding: 50px 0 70px 0;
     }
     
     .sample-text-area4{
-        background: green; 
+        background: #865c00; 
         padding: 50px 0 70px 0;
     }
     .sample-text-area5{
